@@ -68,17 +68,6 @@ def main():
     
     loop = True
     while loop == True:
-        lib1 = library(bookList,libNmae)
-        print("="*50)
-        print(f"                    welcome to {lib1.libraryName} Library")
-        print("="*50)
-        print("\nTo display all books type 'l'")
-        print("To withdraw any book type 'w'")
-        print("To add any book type 'a'")
-        print("To return any book type 'r'")
-        print("To delete any book type 'del'")
-        print("To check Books data type 'data'")
-        print("To quit type 'q'")
         inp = input("Option: ")
         print("-"*20)
         if inp == "l":
